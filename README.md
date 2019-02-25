@@ -1,5 +1,5 @@
 Here my CV
-Contact:
-  Email : minhkhoi260199@gmail.com
-  Phone : 0969.069.589
+#Contact:
+  #Email : minhkhoi260199@gmail.com
+  #Phone : 0969.069.589
   

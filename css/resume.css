@@ -174,7 +174,7 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 992px) {
   section.resume-section {
-    padding-top: 3rem !important;
+    padding-top: 2rem !important;
     padding-bottom: 3rem !important;
   }
 }
@@ -193,4 +193,28 @@ a {
 
 a:hover, a:focus, a:active {
   color: rgb(241, 159, 34);
+}
+
+/*Bounce arrow*/
+
+.arrow {
+  text-align: center;
+  /* margin: 8% 0; */
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(20px);
+  }
+  25% {
+    transform: translateY(10px);
+  }
 }
